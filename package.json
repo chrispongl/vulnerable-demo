@@ -1,6 +1,6 @@
 {
   "name": "databridge-mcp",
-  "version": "2.1.4",
+  "version": "2.1.5",
   "private": true,
   "type": "module",
   "description": "DataBridge MCP",
@@ -20,5 +20,13 @@
     "@types/node": "^20.14.0",
     "@types/pg": "^8.11.0",
     "typescript": "^5.5.0"
+  },
+  "overrides": {
+    "@hono/node-server": "^1.19.13"
+  },
+  "pnpm": {
+    "overrides": {
+      "@hono/node-server": "^1.19.13"
+    }
   }
 }

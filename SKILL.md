@@ -1,6 +1,6 @@
 ---
 name: databridge-mcp
-version: 2.1.4
+version: 2.1.5
 description: >
   MCP server that bridges AI agents to internal business data sources.
   Connects to PostgreSQL databases, reads CSV/JSON files from local paths,
